@@ -28,6 +28,49 @@
   color: #61dafb;
 }
 
+.CajaPrincipal{
+  background-color: rgb(32, 62, 97);
+  color: rgb(187, 197, 212);
+  text-shadow: 2px 2px black;
+}
+
+
+.Cabezera{
+  background-color:  rgb(29, 86, 119);
+  color: rgb(187, 197, 212);
+  text-shadow: 2px 2px black;
+  font-size: 30px;
+  padding: 5%;
+  border-bottom: 5px solid rgb(24, 72, 100);
+}
+
+.PrimerJuego{
+  background-color: rgb(29, 86, 119, 0.6);
+  padding: 5%;
+}
+.PrimerJuego p{
+  background-color: rgb(23, 71, 98);
+  padding: 2%;
+  font-size: 20px;
+}
+
+.Detalles{
+  margin: 0;
+  list-style: none;
+  padding: 2%;
+  background-color: rgb(24, 72, 100);
+}
+
+
+
+span{
+  color: rgb(102, 181, 200);
+  text-shadow: 2px 2px black;
+}
+
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
