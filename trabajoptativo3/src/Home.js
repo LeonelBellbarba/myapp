@@ -7,7 +7,7 @@ class Home extends Component{
             <div className = "CajaPrincipal">
 
                 <div className = "Cabezera">
-                    <h1>Producto: Juego</h1>
+                    <h1>Informacion de Juegos</h1>
 
                 </div>
 
@@ -16,20 +16,20 @@ class Home extends Component{
 
                         {/* PrimerJuego */}
                         <div className = "PrimerJuego">
-                            <h1>Primer Juego Creado</h1>
+                           
                             <img
                                 src ={"../Images/imagen1.jpg"}
                                 />
 
                             <ul className = "ListaCaja">
-                                <li className = "Detalles"><span>Nombre:</span> OXO</li>
+                                <li className = "Detalles"><span>Nombre:</span><br></br> God of War 4</li>
 
                                 <li className = "Detalles"><span>Descripcion:</span><br></br> 
-                                OXO es un videojuego desarrollado por AS Douglas en 1952 que simula un juego de ceros y cruces. Fue uno de los primeros juegos desarrollados en la historia temprana de los videojuegos. Douglas programó el juego como parte de una tesis sobre la interacción humano-computadora en la Universidad de Cambridge.</li>
+                                God of War es un videojuego de acción-aventura desarrollado por SCE Santa Monica Studio y publicado por Sony Interactive Entertainment. Su lanzamiento se produjo el 20 de abril de 2018 como un título exclusivo para la consola PlayStation 4.</li>
 
-                                <li className = "Detalles"><span>Fecha de estreno:</span> 1952</li>
-                                <li className = "Detalles"><span>Diseñador:</span> Sandy Douglas</li>
-                                <li className = "Detalles"><span>Modo:</span> Videojuego de un jugador</li>
+                                <li className = "Detalles"><span>Fecha de estreno:</span><br></br> 20 de abril de 2018</li>
+                                <li className = "Detalles"><span>Diseñador:</span> <br></br>Jetpack Interactive, SIE Santa Monica Studio</li>
+                                <li className = "Detalles"><span>Plataformas:</span><br></br> PlayStation 4, Microsoft Windows</li>
 
                             </ul>
 
@@ -52,5 +52,7 @@ class Home extends Component{
         )
     }
 }
+
+
 
 export default Home

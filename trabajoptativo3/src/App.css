@@ -47,6 +47,7 @@
 .PrimerJuego{
   background-color: rgb(29, 86, 119, 0.6);
   padding: 5%;
+  
 }
 .PrimerJuego p{
   background-color: rgb(23, 71, 98);
@@ -54,11 +55,16 @@
   font-size: 20px;
 }
 
+img{
+  border: 5px solid rgb(20, 57, 78);
+}
+
 .Detalles{
   margin: 0;
   list-style: none;
   padding: 2%;
   background-color: rgb(24, 72, 100);
+  
 }
 
 
